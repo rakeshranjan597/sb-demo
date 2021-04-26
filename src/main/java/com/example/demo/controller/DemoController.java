@@ -17,11 +17,11 @@ public class DemoController {
 	
 	@Autowired
 	private UserDao dao;
-	
-	public void setUserDao(UserDao dao) {
-        this.dao = dao;
-    }
-	
+//	
+//	public void setUserDao(UserDao dao) {
+//        this.dao = dao;
+//    }
+//	
 	@GetMapping(path = "/")
 	public String base() {
 		return "Welcome to My Demo Spring Boot";
