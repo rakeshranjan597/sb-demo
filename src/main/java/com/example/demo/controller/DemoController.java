@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.dao.UserDao;
@@ -18,6 +17,10 @@ public class DemoController {
 	
 	@Autowired
 	private UserDao dao;
+	
+	public void setUserDao(UserDao dao) {
+        this.dao = dao;
+    }
 	
 	@GetMapping(path = "/")
 	public String base() {
