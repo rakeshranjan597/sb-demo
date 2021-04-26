@@ -7,11 +7,12 @@
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
- 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.64.2:3306/demo_db?createDatabaseIfNotExist=true" />
+ 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://ec2-107-20-153-39.compute-1.amazonaws.com:5432/daopgvaae9h956?createDatabaseIfNotExist=true" />
+<!--  			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.64.2:3306/demo_db?createDatabaseIfNotExist=true" /> -->
 <!-- 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.64.2:3306/rakesh_twf_test?useUnicode=yes&amp;characterEncoding=UTF-8?createDatabaseIfNotExist=true" /> -->
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-			<property name="javax.persistence.jdbc.user" value="root" />
-			<property name="javax.persistence.jdbc.password" value="" />
+			<property name="javax.persistence.jdbc.user" value="vnfzxhnsswpezw" />
+			<property name="javax.persistence.jdbc.password" value="82cb6c378934a2e6614706cd15130ae2c430d62ac4fead4e1d8ddef661c3fb9d" />
 			<property name="hibernate.show_sql" value="true" />
  		 	<property name="hibernate.connection.CharSet" value="utf8" />
 			<property name="hibernate.connection.characterEncoding" value="utf8"/>
